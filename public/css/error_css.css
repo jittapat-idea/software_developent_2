@@ -1,5 +1,19 @@
+.background{
+    height:100vh;
+    background-image: url(/public/image/resize-1671034404825927203gregrosenke6QnEfb47eAunsplash.jpg);
+}
 .text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 54%;
+    
+}
+.text h1{
     font-family: 'Anton', sans-serif;
-    font-size: 1.5em;
-    font-weight: 200;
+    font-size: 500%;
+}
+.text h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 300%;
 }
