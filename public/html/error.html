@@ -9,29 +9,44 @@
         <link rel="stylesheet" href="/public/css/error_css.css">
         <style>
             .background{
-                 height:100vh;
-                 background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/minimalist-aesthetic-wallpaper-1920x1080-1.jpg);
+                position: fixed; 
+                top: -50%; 
+                left: -50%; 
+                width: 200%; 
+                height: 200%;
+             }
+             .background img{
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                right: 0; 
+                bottom: 0; 
+                margin: auto; 
+                min-width: 50%;
+                min-height: 50%;
              }
             .text {
                 text-align: center;
                 position: absolute;
-                top: 40%;
-                left: 54%;
+                top: 20%;
+                left: 10%;
     
              }
             .text h1{
                 font-family: 'Anton', sans-serif;
-                font-size: 500%;
+                font-size: 250px;
              }
             .text h2{
                 font-family: 'Anton', sans-serif;
-                font-size: 300%;
+                font-size: 80px;
              }
 
         </style>
     </head>
     <body>
-        <div class="background"></div>
+        <div class="background">
+            <img src="https://www.umw.edu/covidcourse/wp-content/uploads/sites/51/2020/05/COVID-19_header.jpg" alt="error image">
+        </div>
         <div class="text">
             <h1> 404 </h1>
             <h2> error</h2>
